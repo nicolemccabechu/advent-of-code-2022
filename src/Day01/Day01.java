@@ -1,3 +1,5 @@
+package Day01;
+
 import java.io.*;
 import java.util.*;
 
@@ -7,7 +9,7 @@ public class Day01 {
                 = new ArrayList<String>();
 
         BufferedReader bf = new BufferedReader(
-                new FileReader("src/input.txt"));
+                new FileReader("src/Day01/input.txt"));
 
         String line = bf.readLine();
 
